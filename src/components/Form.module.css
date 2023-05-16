@@ -1,0 +1,46 @@
+.app-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-left,
+.section-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.app-body input {
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 30px;
+}
+
+.app-body input,
+.app-body select {
+	color: #fff;
+	border: none;
+	background: none;
+	text-align: center;
+}
+
+.app-body select {
+	padding: 10px 15px;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.app-body input:focus,
+.app-body select:focus {
+	outline: none;
+	color: rgb(67, 171, 255);
+}
+
+.app-body option {
+	color: #333;
+}
+.rate-info {
+	margin-top: 30px;
+	margin-bottom: 0;
+}

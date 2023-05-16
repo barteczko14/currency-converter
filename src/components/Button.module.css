@@ -1,0 +1,16 @@
+.swap {
+	align-self: flex-end;
+	margin: 5px;
+	padding: 5px 10px;
+	background-image: linear-gradient(45deg, #2b89e7, #11e763);
+	font-size: 20px;
+	border: none;
+	border-radius: 25px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.swap:focus {
+	outline: none;
+	background-image: linear-gradient(45deg, #317fcc, #1fc06a);
+}

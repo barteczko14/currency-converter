@@ -118,7 +118,7 @@ const Form = () => {
 					</select>
 				</div>
 			</div>
-			<p className='rate-info'>{`${state.firstValue} ${state.selectedOne} = ${state.secondValue} ${state.selectedTwo}`}</p>
+			<p className={classes['rate-info']}>{`${state.firstValue} ${state.selectedOne} = ${state.secondValue} ${state.selectedTwo}`}</p>
 		</Fragment>
 	)
 }
